@@ -21,7 +21,7 @@ return(
 
         </div>
         <div  className=" bg-[#f7f7f7]   px-4  lg:px-5 xl:px-14   ">
-            <div className="flex justify-between items-center  py-3 xl:py-6 lg:py-3 xl:border-b-2">
+            <div className="flex justify-between items-center  space-x-6 py-3 xl:py-6 lg:py-3 xl:border-b-2">
                 <div className="xl:hidden lg:block"><RxTextAlignLeft size="20px" /></div>
      <div className="lg:ml-36 xl:ml-0">
      <img src={img} height="150" width="150" alt="kl" />
@@ -35,8 +35,8 @@ return(
         </p>
         </button>
      </div>
-     <div className="relative  ml-2 hidden xl:flex">
-        <input type="text" className=" xl:w-[380px]  py-[8px] px-4 border-2 ring-0 rounded-[4px]    ring-gray-200  focus:border-blue-600 focus:outline-none hover:border-blue-600 placeholder:text-sm placeholder:text-gray-500 placeholder:font-semibold " placeholder="What are you looking for ..." />
+     <div className="relative  ml-2 hidden xl:flex  flex-1">
+        <input type="text" className="flex-1   py-[8px] px-4 border-2 ring-0 rounded-[4px]    ring-gray-200  focus:border-blue-600 focus:outline-none hover:border-blue-600 placeholder:text-sm placeholder:text-gray-500 placeholder:font-semibold " placeholder="What are you looking for ..." />
         <div className="absolute inset-y-0 right-0 flex items-center  cursor-pointer pr-5">
         <LuSearch className="text-blue-600" size="18px" />
         </div>

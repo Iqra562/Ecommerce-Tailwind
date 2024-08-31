@@ -16,18 +16,18 @@ function Navbar (){
 
 return(
     <nav>
-        <div className="bg-black p-3 flex justify-center">
+        <div className="bg-black   px-7 py-2 text-center md:px-3 md:py-3 flex justify-center">
 <p className="text-white text-[12px]">Midseason Sale: 20% Off — Auto Applied at Checkout — Limited Time Only</p>
 
         </div>
-        <div  className=" bg-[#f7f7f7] md:px-4 lg:px-5 xl:px-14   ">
-            <div className="flex justify-between items-center  md:py-3 xl:py-6 lg:py-3 xl:border-b-2">
+        <div  className=" bg-[#f7f7f7]   px-4  lg:px-5 xl:px-14   ">
+            <div className="flex justify-between items-center  py-3 xl:py-6 lg:py-3 xl:border-b-2">
                 <div className="xl:hidden lg:block"><RxTextAlignLeft size="20px" /></div>
      <div className="lg:ml-36 xl:ml-0">
      <img src={img} height="150" width="150" alt="kl" />
 
      </div>
-     <div className="ml-3 md:hidden lg:hidden xl:block">
+     <div className="ml-3 hidden xl:block">
         <button type="button" className="text-blue-600  border-blue-600 border-2 rounded flex items-start py-[10px] px-4 space-x-2 hover:bg-blue-600 hover:text-white transition duration-300 ease-in-out">
         <LuAlignLeft  size="19"/>
         <p className="text-xs  font-bold">
@@ -35,7 +35,7 @@ return(
         </p>
         </button>
      </div>
-     <div className="relative  ml-2 md:hidden lg:hidden xl:flex">
+     <div className="relative  ml-2 hidden xl:flex">
         <input type="text" className=" xl:w-[380px]  py-[8px] px-4 border-2 ring-0 rounded-[4px]    ring-gray-200  focus:border-blue-600 focus:outline-none hover:border-blue-600 placeholder:text-sm placeholder:text-gray-500 placeholder:font-semibold " placeholder="What are you looking for ..." />
         <div className="absolute inset-y-0 right-0 flex items-center  cursor-pointer pr-5">
         <LuSearch className="text-blue-600" size="18px" />
@@ -43,12 +43,12 @@ return(
 
      </div> 
      <div className="flex  lg:space-x-6 xl:space-x-4 ">
-        <ul className="md:hidden lg:hidden xl:flex text-sm text-gray-400 font-medium  space-x-7">
+        <ul className="hidden xl:flex text-sm text-gray-400 font-medium  space-x-7">
             <li>Catalog</li>
             <li>Journal</li>
             <li>About</li>
         </ul>
-        <div className="md:hidden lg:hidden  xl:flex   ">
+        <div className="hidden  xl:flex   ">
             <button className="font-sm px-4 py-0 font-semibold ">
                 <div  className="py-0 flex space-x-1">
 <span className="text-sm">Dark Mode</span>
@@ -58,14 +58,14 @@ return(
                 </div>
             </button>
         </div>
-        <div className="md:hidden  lg:flex items-start space-x-2">
+        <div className="hidden  lg:flex items-start space-x-2">
         <div className="rounded-full overflow-hidden w-5 h-5    ">
     <img src={USA} alt="USA" className="w-full h-full object-cover" />
 </div>
 <span className="text-sm font-semibold">UA</span>
 
         </div>
-        <div className="relative cursor-pointer md:hidden lg:flex  " onClick={toggleDropDown}n>
+        <div className="relative cursor-pointer hidden lg:flex  " onClick={toggleDropDown}n>
 
         <div className="text-sm flex space-x-2 font-semibold">
             <span>EN</span> <span  ><RiArrowDropDownFill size="20px" /></span>
@@ -83,8 +83,8 @@ return(
     </div>)}
         </div>
         <div className=" flex space-x-5 ">
-            <div className="md:hidden lg:flex"><RiUser6Line size="20px" /></div>
-            <span classNam="md:hidden lg:flex border-l-2"></span>
+            <div className="hidden lg:flex"><RiUser6Line size="20px" /></div>
+            <span classNam="hidden lg:flex border-l-2"></span>
             <div ><RiShoppingCartLine  size="20px"/></div>
         </div>
      </div>

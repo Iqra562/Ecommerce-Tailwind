@@ -7,8 +7,8 @@ function MainSection(){
 return(
     <>
    
-    <div className=  "md:h-auto lg:h-[330px] xl:h-[430px] md:block  lg:flex md:px-4 lg:px-5 xl:px-14 lg:space-x-2 mt-2 md:space-y-2 lg:space-y-0">
-    <div className="md:h-[384px] lg:h-auto  md:w-full lg:w-[50%] relative rounded-md overflow-hidden xl:p-12 lg:p-4 md:p-8 ">
+    <div className=  "h-auto lg:h-[330px] xl:h-[430px] md:block  lg:flex px-4 lg:px-5 xl:px-14  lg:space-x-2 mt-2 space-y-2 lg:space-y-0">
+    <div className="sm:h-[250px]  md:h-[384px] lg:h-auto  md:w-full lg:w-[50%] relative rounded-md overflow-hidden xl:p-12 lg:p-4 md:p-8 p-6 ">
     <img 
         src={img1} 
         alt="" 
@@ -20,10 +20,10 @@ return(
             <span className="uppercase text-blue-500 text-xs font-medium">in stock now</span>
         </div>
         <div className="w-[70%]">
-            <h1 className="text-4xl font-bold  ">
+            <h1 className= " text-3xl md:text-4xl  font-bold  ">
                 Upgrade Your Tech Game 
             </h1>
-            <p className="text-gray-500 mt-3 xl:w-4/6 lg:w-5/6" >Find your perfect phone - sleek and stylish or budget-friendly.</p>
+            <p className="text-gray-500 mt-3 xl:w-4/6 lg:w-5/6  md:w-5/6 w-44  font-[22px] md:font-[25px]" >Find your perfect phone - sleek and stylish or budget-friendly.</p>
         </div>
         <div>
             <button className="px-9 py-4 bg-blue-600 text-white text-xs rounded-[5px] font-bold">Shop Now</button>
@@ -32,7 +32,7 @@ return(
 </div>
    
 
-        <div className="lg:w-[25%] md:w-full  relative rounded-md overflow-hidden xl:p-9 lg:p-7  md:p-9 lg:h-full md:h-[691px]   ">
+        <div className="lg:w-[25%] md:w-full  relative rounded-md overflow-hidden xl:p-9 lg:p-7  md:p-9  p-7 lg:h-full md:h-[691px] h-[380px]  ">
             <img src={img2} alt="" className="absolute inset-0 w-full h-full object-cover"/>
             <div className="relative flex flex-col justify-between  h-full">
          <div>
@@ -45,8 +45,8 @@ return(
         </div>
          
         <div className="lg:w-[25%] md:w-full flex flex-col space-y-2  rounded-md overflow-hidden  ">
-          <div className="lg:h-[50%]   md:h-[394px]">
-          <div className=" relative rounded-md overflow-hidden md:p-9 xl:p-9 lg:p-7  h-full    ">
+          <div className="lg:h-[50%]   md:h-[394px] h-[212px]">
+          <div className=" relative rounded-md overflow-hidden md:p-9 xl:p-9 lg:p-7 p-7  h-full    ">
             <img src={img3} alt="" className="absolute inset-0 w-full h-full object-cover"/>
             <div className="relative flex flex-col justify-between  h-full">
          <div>
@@ -58,8 +58,8 @@ return(
             </div>
         </div>
           </div>
-          <div className="lg:h-[50%]   md:h-[394px]">
-          <div className=" relative rounded-md overflow-hidden md:p-9 xl:p-9 lg:p-7   h-full  ">
+          <div className="lg:h-[50%]   md:h-[394px] h-[212px]">
+          <div className=" relative rounded-md overflow-hidden md:p-9 xl:p-9 lg:p-7 p-7  h-full  ">
             <img src={img4} alt="" className="absolute inset-0 w-full h-full object-cover"/>
             <div className="relative flex flex-col justify-between  h-full">
          <div>

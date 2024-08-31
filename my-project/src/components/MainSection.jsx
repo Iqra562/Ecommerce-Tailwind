@@ -6,14 +6,15 @@ import img4 from "../assets/images/mainsec-4.webp"
 function MainSection(){
 return(
     <>
-    <div className= "lg:h-[330px] xl:h-[430px] flex lg:px-5 xl:px-14 space-x-2 mt-2">
-    <div className=" w-[50%] relative rounded-md overflow-hidden xl:p-12 lg:p-4">
+   
+    <div className=  "md:h-auto lg:h-[330px] xl:h-[430px] md:block  lg:flex md:px-4 lg:px-5 xl:px-14 lg:space-x-2 mt-2 md:space-y-2 lg:space-y-0">
+    <div className="md:h-[384px] lg:h-auto  md:w-full lg:w-[50%] relative rounded-md overflow-hidden xl:p-12 lg:p-4 md:p-8 ">
     <img 
         src={img1} 
         alt="" 
         className="absolute inset-0 w-full h-full object-cover transform "
     />
-    <div className="relative  xl:py-3 lg:py-3 lg:px-4 xl:px-8  flex flex-col justify-between  h-full">
+    <div className="relative  xl:py-3 lg:py-3 lg:px-4 xl:px-8  flex flex-col justify-between  h-full ">
         <div className="flex items-center space-x-3">
             <span className=" bg-green-500 p-[3px] rounded-full block  "></span>
             <span className="uppercase text-blue-500 text-xs font-medium">in stock now</span>
@@ -29,9 +30,10 @@ return(
         </div>
     </div>
 </div>
+   
 
-        <div className="w-[25%]  relative rounded-md overflow-hidden xl:p-9 lg:p-7  h-full  ">
-            <img src={img2} alt="" className="absolute inset-0 w-full h-full object-fill"/>
+        <div className="lg:w-[25%] md:w-full  relative rounded-md overflow-hidden xl:p-9 lg:p-7  md:p-9 lg:h-full md:h-[691px]   ">
+            <img src={img2} alt="" className="absolute inset-0 w-full h-full object-cover"/>
             <div className="relative flex flex-col justify-between  h-full">
          <div>
             <button className="bg-white text-[10px] py-2 px-3 font-semibold rounded-md">GAMING</button>
@@ -42,9 +44,9 @@ return(
             </div>
         </div>
          
-        <div className="w-[25%] flex flex-col space-y-2  rounded-md overflow-hidden">
-          <div className="h-[50%]">
-          <div className=" relative rounded-md overflow-hiddenxl:p-9 lg:p-7  h-full  ">
+        <div className="lg:w-[25%] md:w-full flex flex-col space-y-2  rounded-md overflow-hidden  ">
+          <div className="lg:h-[50%]   md:h-[394px]">
+          <div className=" relative rounded-md overflow-hidden md:p-9 xl:p-9 lg:p-7  h-full    ">
             <img src={img3} alt="" className="absolute inset-0 w-full h-full object-cover"/>
             <div className="relative flex flex-col justify-between  h-full">
          <div>
@@ -56,8 +58,8 @@ return(
             </div>
         </div>
           </div>
-          <div className="h-[50%]">
-          <div className=" relative rounded-md overflow-hidden xl:p-9 lg:p-7  h-full  ">
+          <div className="lg:h-[50%]   md:h-[394px]">
+          <div className=" relative rounded-md overflow-hidden md:p-9 xl:p-9 lg:p-7   h-full  ">
             <img src={img4} alt="" className="absolute inset-0 w-full h-full object-cover"/>
             <div className="relative flex flex-col justify-between  h-full">
          <div>

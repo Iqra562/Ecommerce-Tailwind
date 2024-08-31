@@ -7,7 +7,7 @@ function MainSection(){
 return(
     <>
    
-    <div className=  "h-auto lg:h-[330px] xl:h-[430px] md:block  lg:flex px-4 lg:px-5 xl:px-14  lg:space-x-2 mt-2 space-y-2 lg:space-y-0">
+    <div className=  "h-auto lg:h-[330px] xl:h-[430px] md:block  lg:flex  mt-2 space-y-2 lg:space-y-0 lg:space-x-2">
     <div className="sm:h-[250px]  md:h-[384px] lg:h-auto  md:w-full lg:w-[50%] relative rounded-md overflow-hidden xl:p-12 lg:p-4 md:p-8 p-6 ">
     <img 
         src={img1} 

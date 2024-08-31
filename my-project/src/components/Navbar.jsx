@@ -21,13 +21,14 @@ return(
 
         </div>
         <div  className=" bg-[#f7f7f7]   px-4  lg:px-5 xl:px-14   ">
-            <div className="flex justify-between items-center  space-x-6 py-3 xl:py-6 lg:py-3 xl:border-b-2">
-                <div className="xl:hidden lg:block"><RxTextAlignLeft size="20px" /></div>
+            <div className="flex  justify-between space-x-5 items-center  py-3 xl:py-6 lg:py-3 xl:border-b-2">
+                <div className="xl:hidden  block"><RxTextAlignLeft size="20px" /></div>
      <div className="lg:ml-36 xl:ml-0">
      <img src={img} height="150" width="150" alt="kl" />
 
      </div>
-     <div className="ml-3 hidden xl:block">
+     
+     <div className=" hidden xl:block">
         <button type="button" className="text-blue-600  border-blue-600 border-2 rounded flex items-start py-[10px] px-4 space-x-2 hover:bg-blue-600 hover:text-white transition duration-300 ease-in-out">
         <LuAlignLeft  size="19"/>
         <p className="text-xs  font-bold">
@@ -41,6 +42,7 @@ return(
         <LuSearch className="text-blue-600" size="18px" />
         </div>
 
+   
      </div> 
      <div className="flex  lg:space-x-6 xl:space-x-4 ">
         <ul className="hidden xl:flex text-sm text-gray-400 font-medium  space-x-7">

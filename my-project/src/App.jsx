@@ -1,11 +1,9 @@
-import MainSection from "./components/MainSection"
-import Navbar from "./components/Navbar"
-
+import React from "react"
+import Home from "./pages/Home"
 export default function App() {
   return (
     <>
-   <Navbar/>
-   <MainSection/>
+  <Home/>
     </>
   )
 }

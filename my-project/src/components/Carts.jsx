@@ -1,15 +1,14 @@
 import React from "react";
-import cart1 from '../assets/images/cart-1-a.webp'
 
 
-function Carts(){
+function Carts({name,price,image,sale}){
 return(
     <>
        
        <div className="bg-white h-full inline-block rounded-md overflow-hidden relative">
-            <div className="absolute bg-green-700 text-white m-3 px-2 text-sm font-medium rounded-sm">Sale</div>
+           {sale &&  <div className="absolute bg-green-700 text-white m-3 px-2 text-sm font-medium rounded-sm">Sale</div>}
             <div className="h-[220px]">
-                <img src={cart1} alt="" className="h-full w-full object-cover" />
+                <img src={image} alt="" className="h-full w-full object-cover" />
             </div>
             <div className="px-7 py-9 h-[200px]">
                 <p className="uppercase text-[10px] text-gray-500 font-semibold">stockmart</p>
@@ -20,4 +19,4 @@ return(
     </>
 )
 } 
-export default Carts;
+export default Carts; 

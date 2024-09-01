@@ -1,8 +1,23 @@
 import React from "react"
 import Carts from "../components/Carts"
-import SmartWatches from "../Data/SmartWatches"
+import Speakers from "../Data/Speaker.js"
+import SmartWatches from "../Data/SmartWatches.js"
+import Phones from "../Data/Phones.js"
+import Headphones from "../Data/Headphones.js"
+
+
+
+
+const allItems = [ 
+    ...SmartWatches.slice(0, 1), 
+    ...Phones.slice(0, 1),       
+    ...Speakers.slice(0, 3),     
+    ...Phones.slice(1, 2),       
+    ...Headphones.slice(0, 3),     
+  ];
+
 function CartSection(){
-return(
+return( 
 
 
     <div className="w-full  grid grid-cols-6 gap-3 mt-24  ">
@@ -19,7 +34,7 @@ return(
     
 </div>
 {
-    SmartWatches.map((item,index)=>{
+    allItems.map((item)=>{
         return(
 
             <Carts    key={item.id}

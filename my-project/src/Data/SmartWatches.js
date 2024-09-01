@@ -8,7 +8,7 @@ const SmartWatches = [
   price:"299.00",
   image:smartWatch1,
   imageOnHover  : smartWatch1,
-  sale:false,
+  sale:true,
   strikeThroughPrice : "329.00",
   description:""
 

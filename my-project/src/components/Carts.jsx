@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Carts({name,price,image,sale}){
+function Carts({name,price,image,sale,strikeThroughPrice}){
 return(
     <>
        
@@ -12,8 +12,9 @@ return(
             </div>
             <div className="px-7 py-9 h-[200px]">
                 <p className="uppercase text-[10px] text-gray-500 font-semibold">stockmart</p>
-                <h1 className="font-semibold ">Vortex Smart Watch</h1>
-                <h1 className="text-green-700 font-bold inline">$299.00</h1> <span className="line-through text-gray-600 font-semibold text-sm ml-1">$250.00</span>
+                <h1 className="font-semibold ">{name}</h1>
+                <h1 className="text-green-700 font-bold inline">${price}</h1> 
+              {strikeThroughPrice &&  <span className="line-through text-gray-600 font-semibold text-sm ml-1">${strikeThroughPrice}</span>}
             </div>
         </div>
     </>

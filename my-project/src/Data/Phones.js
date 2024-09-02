@@ -4,7 +4,7 @@ import phone2 from '../assets/images/phones/phone-2-a.webp'
 import phone3 from '../assets/images/phones/phone-3-a.webp' 
 import phone3hover from '../assets/images/phones/phone-3-b.webp' 
 
-const Headphones = [
+const Phones = [
     {
   id:1,
   name:"Hyperion HX1-1",
@@ -46,4 +46,4 @@ const Headphones = [
     
 ]
 
-export default Headphones;
+export default Phones;

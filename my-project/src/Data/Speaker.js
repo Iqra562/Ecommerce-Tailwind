@@ -1,5 +1,4 @@
 import speaker1a from '../assets/images/speaker/speaker-1-a.webp' 
-import speaker1b from '../assets/images/speaker/speaker-1-b.webp' 
 import speaker2a from '../assets/images/speaker/speaker-2-a.webp' 
 import speaker2b from '../assets/images/speaker/speaker-2-b.webp' 
 import speaker3a from '../assets/images/speaker/speaker-3-a.webp' 
@@ -15,7 +14,7 @@ const Speakers = [
   name:"Helix-Tower Speaker",
   price:"60.00",
   image:speaker1a,
-  imageOnHover  : speaker1b,
+  imageOnHover  : speaker1a,
   sale:false,
   strikeThroughPrice : null,
   description:""
